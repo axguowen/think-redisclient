@@ -14,8 +14,9 @@
         }
     ],
     "require": {
-        "php": ">=5.6.0",
-        "axguowen/redis-client": "^1.0"
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.1",
+        "axguowen/redis-client": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -28,5 +29,6 @@
                 "redisclient": "src/config.php"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
