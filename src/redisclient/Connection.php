@@ -85,6 +85,7 @@ class Connection
         'Redis server went away',
         'Connection timed out',
         'NOAUTH Authentication required.',
+        'socket error on read socket',
     ];
 
     /**
